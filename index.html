@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/gunel-avatar-clean.png" alt="Gunel Avliyakulova" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Gunel Avliyakulova">Gunel Avliyakulova</h1>
+
+          <p class="title">Android developer</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">gunel.awliyakulowa04@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">(+993) 63664074</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 03, 2004</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Ashgabat, Turkmenistan</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://t.me/gunel_avliyakulova" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="paper-plane-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/gunel02" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/99363664074" class="social-link" target="_blank" rel="noopener noreferrer">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+<nav class="navbar">
+  <ul class="navbar-list">
+    <li class="navbar-item">
+      <button class="navbar-link  active" data-nav-link>About</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Resume</button>
+    </li>
+    <li class="navbar-item">
+      <button class="navbar-link" data-nav-link>Portfolio</button>
+    </li>
+    <li class="navbar-item lang-switcher">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="tr">TM</button>
+    </li>
+  </ul>
+</nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Android Developer with over 2 years of experience in Kotlin and modern Android frameworks. I build robust, responsive
+            applications using best practices such as MVVM, clean architecture, and modular design.
+          </p>
+
+          <p>
+            I focus on delivering high-quality user experiences, optimizing performance, and writing clean, testable
+            code. I enjoy collaborating with teams, sharing ideas, and contributing to a positive development
+            environment. I'm always eager to learn new technologies and improve both my technical and communication
+            skills.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="languages">
+  <h3 class="h3 languages-title">Languages</h3>
+  <ul class="languages-list">
+    <li class="languages-item">Turkmen — Native</li>
+    <li class="languages-item">Russian — Native</li>
+    <li class="languages-item">English — Upper intermediate</li>
+    <li class="languages-item">Turkish — Intermediate</li>
+  </ul>
+</section>
+
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for Android.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">The International University for Humanities and Development</h4>
+
+              <span>2022-Present</span>
+
+              <p class="timeline-text">
+                Computer Programming
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title experience-company">Belet film</h4>
+
+              <span>18.03.2024 - 11.06.2025</span>
+
+              <p class="timeline-text experience-details">
+                &bull; Developed authentication system using real API endpoints (Sign Up/Login)<br>
+                &bull; Integrated backend services and handled API responses<br>
+                &bull; Designed and implemented movie listing interface with image-based content<br>
+                &bull; Built UI components using XML following Android best practices<br>
+                &bull; Managed navigation flow between login and main screens<br>
+                &bull; Improved application stability and user experience
+              </p>
+
+            </li>
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title experience-company">Gerekli Hyzmat (Tm Cars)</h4>
+
+              <span>01.11.2025 - 28.04.2026</span>
+
+              <p class="timeline-text experience-details">
+                &bull; Developed features for a Car Services application using Kotlin and MVVM architecture<br>
+                &bull; Designed and implemented UI components using XML<br>
+                &bull; Integrated REST APIs using Ktor client and handled JSON data<br>
+                &bull; Collaborated with team members on real-world app development<br>
+                &bull; Improved application performance and fixed bugs.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Kotlin</h5>
+                <data value="99.9">99.9%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 99.9%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+          <div class="tech-stack">
+            <h3 class="h3 tech-stack-title">Tech Stack</h3>
+
+            <ul class="tech-stack-list">
+              <li class="tech-stack-item">Kotlin</li>
+              <li class="tech-stack-item">Java</li>
+              <li class="tech-stack-item">MVVM</li>
+              <li class="tech-stack-item">MVI</li>
+              <li class="tech-stack-item">Clean Architecture</li>
+              <li class="tech-stack-item">Coroutines</li>
+              <li class="tech-stack-item">Flow</li>
+              <li class="tech-stack-item">Retrofit</li>
+              <li class="tech-stack-item">Ktor</li>
+              <li class="tech-stack-item">Room</li>
+              <li class="tech-stack-item">SQLite</li>
+              <li class="tech-stack-item">Hilt</li>
+              <li class="tech-stack-item">Dagger</li>
+              <li class="tech-stack-item">Firebase</li>
+              <li class="tech-stack-item">Git</li>
+            </ul>
+          </div>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <h3 class="h3 portfolio-section-title">Applications</h3>
+
+          <ul class="application-list">
+            <li class="application-card">
+              <figure class="application-preview belet-preview">
+                <div class="belet-logo" aria-hidden="true">
+                  <svg class="belet-logo-svg" viewBox="0 0 420 420" role="img">
+                    <rect width="420" height="420" rx="28" fill="#101115" />
+                    <path
+                      d="M106 110 C121 88 143 79 171 83 L300 101 C331 105 352 130 352 162 L352 287 C352 319 331 342 299 347 L154 368 C118 373 91 348 91 312 L91 155 C91 136 96 121 106 110 Z"
+                      fill="url(#beletGradient)"
+                    />
+                    <path
+                      d="M145 143 C149 138 155 136 163 137 L280 151 C292 152 300 161 300 174 L300 267 C300 279 292 287 280 289 L163 304 C151 305 142 296 142 284 L142 158 C142 152 143 147 145 143 Z"
+                      fill="#101115"
+                    />
+                    <defs>
+                      <linearGradient id="beletGradient" x1="100" y1="78" x2="350" y2="366" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#34dce6" />
+                        <stop offset="1" stop-color="#079ff0" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="application-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="application-content">
+                <h3 class="h3 application-title">Belet</h3>
+                <p class="application-category">Applications</p>
+
+                <p class="application-text">
+                  A streaming app for movies, series, cartoons, and live sports with smooth playback and personalized content.
+                </p>
+
+                <p class="application-stack">Kotlin &bull; MVVM &bull; Retrofit &bull; Firebase</p>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=tm.belet.films&hl=ru"
+                  class="application-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Play Store
+                </a>
+              </div>
+            </li>
+
+            <li class="application-card">
+              <figure class="application-preview sowgatlar-preview">
+                <div class="sowgatlar-logo" aria-hidden="true">
+                  <span class="sowgatlar-letter">S</span>
+                  <span class="sowgatlar-leaf"></span>
+                </div>
+
+                <div class="application-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="application-content">
+                <h3 class="h3 application-title">Sowgatlar</h3>
+                <p class="application-category">Applications</p>
+
+                <p class="application-text">
+                  A mobile shopping app for gifts, products, and simple ordering with a clean browsing experience.
+                </p>
+
+                <p class="application-stack">Kotlin &bull; MVVM &bull; Retrofit &bull; Firebase</p>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.sowgatlar.app&hl=ru"
+                  class="application-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Play Store
+                </a>
+              </div>
+            </li>
+
+            <li class="application-card">
+              <figure class="application-preview market-preview">
+                <div class="yunus-logo" aria-hidden="true">
+                  <svg class="yunus-logo-svg" viewBox="0 0 420 420" role="img">
+                    <rect width="420" height="420" rx="34" fill="#f7f7f7" />
+                    <g transform="translate(58 124)">
+                      <path d="M0 0 L34 4 L47 101 L119 101" fill="none" stroke="#174b33" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                      <path d="M38 39 H112 L99 82 H45" fill="none" stroke="#174b33" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" />
+                      <circle cx="54" cy="125" r="9" fill="none" stroke="#174b33" stroke-width="8" />
+                      <circle cx="104" cy="125" r="9" fill="none" stroke="#174b33" stroke-width="8" />
+                      <path d="M74 27 C84 -1 111 -14 133 -15 C130 17 107 39 78 48 C81 40 86 33 96 24 C87 27 80 31 74 37 Z" fill="#b91f35" />
+                      <path d="M81 39 C96 31 111 18 126 -7" fill="none" stroke="#f7f7f7" stroke-width="4" stroke-linecap="round" />
+                    </g>
+                    <text x="174" y="185" fill="#174b33" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700">Ýunus</text>
+                    <text x="174" y="243" fill="#b91f35" font-family="Poppins, Arial, sans-serif" font-size="58" font-weight="700">Market</text>
+                  </svg>
+                </div>
+
+                <div class="application-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="application-content">
+                <h3 class="h3 application-title">Ýunus Market</h3>
+                <p class="application-category">Applications</p>
+
+                <p class="application-text">
+                  An online grocery app with fast ordering, smart catalog search, and convenient home delivery flows.
+                </p>
+
+                <p class="application-stack">Kotlin &bull; Clean Architecture &bull; Retrofit &bull; Room</p>
+
+                <a
+                  href="https://play.google.com/store/apps/details?id=com.yunus.market&hl=ru"
+                  class="application-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on Play Store
+                </a>
+              </div>
+            </li>
+
+            <li class="application-card">
+              <figure class="application-preview car-services-preview">
+                <div class="car-services-logo" aria-hidden="true">
+                  <svg class="car-services-logo-svg" viewBox="0 0 420 420" role="img">
+                    <rect width="420" height="420" rx="34" fill="#101115" />
+                    <path
+                      d="M103 238 L127 168 C134 148 151 136 173 136 H247 C269 136 286 148 293 168 L317 238"
+                      fill="none"
+                      stroke="url(#carGradient)"
+                      stroke-width="22"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M94 238 H326 C344 238 358 252 358 270 V303 H322 M98 303 H62 V270 C62 252 76 238 94 238 Z"
+                      fill="none"
+                      stroke="url(#carGradient)"
+                      stroke-width="22"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <circle cx="130" cy="303" r="26" fill="#101115" stroke="url(#carGradient)" stroke-width="18" />
+                    <circle cx="290" cy="303" r="26" fill="#101115" stroke="url(#carGradient)" stroke-width="18" />
+                    <path d="M157 180 H263" stroke="url(#carGradient)" stroke-width="16" stroke-linecap="round" />
+                    <path d="M80 220 L56 205 M340 220 L364 205" stroke="url(#carGradient)" stroke-width="14" stroke-linecap="round" />
+                    <defs>
+                      <linearGradient id="carGradient" x1="62" y1="136" x2="358" y2="329" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#34dce6" />
+                        <stop offset="1" stop-color="#079ff0" />
+                      </linearGradient>
+                    </defs>
+                  </svg>
+                </div>
+
+                <div class="application-icon-box">
+                  <ion-icon name="logo-github"></ion-icon>
+                </div>
+              </figure>
+
+              <div class="application-content">
+                <h3 class="h3 application-title">Car Services</h3>
+                <p class="application-category">Applications</p>
+
+                <p class="application-text">
+                  A car services app with service listings, structured navigation, API integration, and a practical mobile flow.
+                </p>
+
+                <p class="application-stack">Kotlin &bull; MVVM &bull; Ktor &bull; REST API</p>
+
+                <a
+                  href="https://github.com/gunel02/car-services"
+                  class="application-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View on GitHub
+                </a>
+              </div>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      -->
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script src="./assets/js/translations.js"></script>  
+
+  <!--  
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
